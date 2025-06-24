@@ -7,8 +7,8 @@ message: hello from order service dev
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/my_database?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: user    # Must match the MYSQL_USER in your docker-compose.yml
-    password: password # Must match the MYSQL_PASSWORD in your docker-compose.yml
+    username: root    # Must match the MYSQL_USER in your docker-compose.yml
+    password: root # Must match the MYSQL_PASSWORD in your docker-compose.yml
     driver-class-name: com.mysql.cj.jdbc.Driver # The JDBC driver class for MySQL
 
   jpa:
