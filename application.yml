@@ -3,7 +3,10 @@ global:
 loggin:
   level:
     roo: INFO
-
+eureka:
+  client:
+    service-url:
+      defaltZone: http://localhost:8761/eureka/
 management:
   endpoints:
     web:
