@@ -1,5 +1,5 @@
 global:
-  message: Welcome to globar microservice environment
+  message: Welcome to customer dev microservice environment
 server:
   port: 8081
 message: hello from customer service dev
