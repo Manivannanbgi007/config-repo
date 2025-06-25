@@ -18,3 +18,7 @@ spring:
     properties:
       hibernate:
         format_sql: true # Format SQL logs for readability
+eureka:
+  client:
+    service-url:
+      defaltZone: http://localhost:8761/eureka/
